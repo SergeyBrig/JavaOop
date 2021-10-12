@@ -1,6 +1,5 @@
 public class Block {
 
-
     private int width;
     private int length;
     private int height;
@@ -31,6 +30,4 @@ public class Block {
                 getWidth() * getLength() * 2
                 + getHeight() * getLength() * 2;
     }
-
-
 }
