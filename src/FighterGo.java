@@ -10,7 +10,7 @@ public class FighterGo {
 
     public static String declareWinner(Fighter fighter1, Fighter fighter2, String firstAttacker) {
 
-        while(fighter1.health > 0 && fighter2.health > 0){
+        while(fighter1.health > 0 && fighter2.health > 0) {
 
             fighter1.health -= fighter2.damagePerAttack;
             fighter2.health -= fighter1.damagePerAttack;
